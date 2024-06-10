@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compound Interest Calculator</title>
+</head>
+<body>
+  <h1>Compound Interest Calculator</h1>
+  <div id="calculator">
+    <label for="principal">Principal Amount:</label>
+    <input type="number" id="principal" value="1000">
+    <br>
+    <label for="interest">Interest Rate (%):</label>
+    <input type="number" id="interest" value="5">
+    <br>
+    <label for="time">Time (Years):</label>
+    <input type="number" id="time" value="1">
+    <br>
+    <button onclick="calculateCompoundInterest()">Calculate</button>
+    <p id="result"></p>
+  </div>
+  <script src="compoundinterest.js"></script>
+</body>
+</html>

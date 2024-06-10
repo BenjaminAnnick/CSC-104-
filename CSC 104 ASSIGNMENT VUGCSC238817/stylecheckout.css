@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000000;
+    padding: 20px;
+    color: #e0e0e0;
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    height: 50px;
+    margin-top:20% ;
+
+  }
+.checkout-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.checkout-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-summary,
+.delivery-address,
+.shipment {
+    border: 1px solid #3f8006;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.order-summary h2,
+.delivery-address h2,
+.shipment h2  {
+    margin-bottom: 10px;
+}
+
+.order-details,
+.delivery-fees,
+.discount,
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.address-details p {
+    margin-bottom: 5px;
+}
